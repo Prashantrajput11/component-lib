@@ -1,0 +1,65 @@
+.badge-showcase {
+	display: flex;
+	justify-content: baseline;
+	align-items: flex-end;
+	border: 2px solid var(--teritiary-color);
+	border-radius: 8px;
+	padding: 3rem 0;
+}
+
+.badge--image {
+	width: 9.4rem;
+	height: 9.4rem;
+	border-radius: 50%;
+	margin: 2.4rem;
+	position: relative;
+}
+.badge-status {
+	height: 2.2rem;
+	width: 2.2rem;
+	border-radius: 50%;
+	position: absolute;
+	margin-top: -57px;
+	margin-left: 100px;
+	border: 2px solid var(--secondary-color);
+}
+
+.badge--status-active {
+	background-color: var(--status-active-color);
+}
+
+.badge--status-offline {
+	background-color: var(--status-offline-color);
+}
+
+.badge--status-away {
+	background-color: var(--status-away-color);
+}
+
+/*******badge icon css****/
+
+.badge-icons-container {
+	display: flex;
+	justify-content: center;
+}
+
+.badge-icons {
+	width: 100px;
+	height: 100px;
+	align-items: center;
+	color: var(--primary-color);
+	position: relative;
+}
+.badge-icon-link {
+	background-color: var(--primary-color);
+	border-radius: 80%;
+	border: 1px solid var(--secondary-color);
+	width: 3rem;
+	height: 3rem;
+	color: var(--teritiary-color);
+	text-align: center;
+	font-size: 2rem;
+	position: absolute;
+	top: -15px;
+	left: 20px;
+}
