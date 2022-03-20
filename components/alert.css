@@ -1,0 +1,27 @@
+.alert {
+	margin: 2.4rem auto;
+	width: 80%;
+	border-radius: 9px;
+	font-weight: 200;
+	padding: 1rem 1rem;
+	font-size: 2rem;
+}
+.code-snippet {
+	border: 2px solid #d0d4d7;
+	font-size: 2rem;
+}
+.alert--primary {
+	background-color: #60a5fa;
+}
+
+.alert--secondary {
+	background-color: #9ca3af;
+}
+
+.alert--success {
+	background-color: #a7f3d0;
+}
+
+.alert--danger {
+	background-color: #e54444;
+}
