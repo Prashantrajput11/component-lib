@@ -21,19 +21,19 @@
 	position: absolute;
 	margin-top: -57px;
 	margin-left: 100px;
-	border: 2px solid white;
+	border: 2px solid var(--secondary-color);
 }
 
 .badge--status-active {
-	background-color: #00ff00;
+	background-color: var(--status-active-color);
 }
 
 .badge--status-offline {
-	background-color: #ff0000;
+	background-color: var(--status-offline-color);
 }
 
 .badge--status-away {
-	background-color: #313531ea;
+	background-color: var(--status-away-color);
 }
 
 /*******badge icon css****/
