@@ -1,0 +1,78 @@
+.btn {
+	padding: 1.2rem;
+	border: none;
+	border-radius: 5px;
+}
+
+.btn--primary {
+	background-color: var(--button-primary-color);
+}
+
+.btn--secondary {
+	background-color: var(--button-secondary-color);
+}
+
+.btn--success {
+	background-color: var(--button-success-color);
+}
+
+.btn--danger {
+	background-color: var(--button-danger-color);
+}
+.btn--warning {
+	background-color: var(--button-warning-color);
+}
+
+.btn--info {
+	background-color: var(--button-info-color);
+}
+
+/*********************/
+/***Outline Buttons***/
+/*********************/
+
+.btn--outline-primary {
+	border: 2px solid var(--button-primary-color);
+}
+.btn--outline-primary:hover {
+	background-color: var(--button-primary-color);
+}
+.btn--outline-secondary {
+	border: 2px solid var(--button-secondary-color);
+}
+.btn--outline-secondary:hover {
+	background-color: var(--button-secondary-color);
+}
+.btn--outline-success {
+	border: 2px solid var(--button-success-color);
+}
+.btn--outline-success:hover {
+	background-color: var(--button-success-color);
+}
+.btn--outline-danger {
+	border: 2px solid var(--button-danger-color);
+}
+.btn--outline-danger:hover {
+	background-color: var(--button-danger-color);
+}
+.btn--outline-warning {
+	border: 2px solid;
+	border-color: var(--button-warning-color);
+}
+.btn--outline-warning:hover {
+	background-color: var(--button-warning-color);
+}
+.btn--outline-info {
+	border: 2px solid var(--button-info-color);
+}
+.btn--outline-info:hover {
+	background-color: var(--button-info-color);
+}
+
+.btn-lg {
+	padding: 1.8rem 2.4rem;
+}
+
+.btn-sm {
+	padding: 1rem 1.2rem;
+}
