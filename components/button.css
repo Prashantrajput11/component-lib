@@ -5,26 +5,26 @@
 }
 
 .btn--primary {
-	background-color: #0d6efd;
+	background-color: var(--button-primary-color);
 }
 
 .btn--secondary {
-	background-color: #6c757d;
+	background-color: var(--button-secondary-color);
 }
 
 .btn--success {
-	background-color: #198754;
+	background-color: var(--button-success-color);
 }
 
 .btn--danger {
-	background-color: #dc3545;
+	background-color: var(--button-danger-color);
 }
 .btn--warning {
-	background-color: #ffc107;
+	background-color: var(--button-warning-color);
 }
 
 .btn--info {
-	background-color: #0dcaf0;
+	background-color: var(--button-info-color);
 }
 
 /*********************/
