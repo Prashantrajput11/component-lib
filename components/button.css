@@ -1,0 +1,78 @@
+.btn {
+	padding: 1.2rem;
+	border: none;
+	border-radius: 5px;
+}
+
+.btn--primary {
+	background-color: #0d6efd;
+}
+
+.btn--secondary {
+	background-color: #6c757d;
+}
+
+.btn--success {
+	background-color: #198754;
+}
+
+.btn--danger {
+	background-color: #dc3545;
+}
+.btn--warning {
+	background-color: #ffc107;
+}
+
+.btn--info {
+	background-color: #0dcaf0;
+}
+
+/*********************/
+/***Outline Buttons***/
+/*********************/
+
+.btn--outline-primary {
+	border: 2px solid #0d6efd;
+}
+.btn--outline-primary:hover {
+	background-color: #0d6efd;
+}
+.btn--outline-secondary {
+	border: 2px solid #6c757d;
+}
+.btn--outline-secondary:hover {
+	background-color: #6c757d;
+}
+.btn--outline-success {
+	border: 2px solid #198754;
+}
+.btn--outline-success:hover {
+	background-color: #198754;
+}
+.btn--outline-danger {
+	border: 2px solid #dc3545;
+}
+.btn--outline-danger:hover {
+	background-color: #dc3545;
+}
+.btn--outline-warning {
+	border: 2px solid;
+	border-color: #ffc107;
+}
+.btn--outline-warning:hover {
+	background-color: #ffc107;
+}
+.btn--outline-info {
+	border: 2px solid #0dcaf0;
+}
+.btn--outline-info:hover {
+	background-color: #0dcaf0;
+}
+
+.btn-lg {
+	padding: 1.8rem 2.4rem;
+}
+
+.btn-sm {
+	padding: 1rem 1.2rem;
+}
