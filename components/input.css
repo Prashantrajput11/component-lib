@@ -1,0 +1,33 @@
+.input {
+	font-size: 2rem;
+	display: block;
+	border: none;
+	padding: 1.2rem 2.4rem;
+	width: 100%;
+}
+
+.input-flex-container {
+	display: flex;
+	flex-direction: column;
+}
+.input-row {
+	margin: 2rem;
+}
+.input-label {
+	font-size: 2rem;
+}
+
+.input--success {
+	border: 2px solid var(--input-sc);
+}
+.input--error {
+	border: 2px solid var(--input-erc);
+}
+.succes-text {
+	color: var(----text-sc);
+	font-size: 2.2rem;
+}
+.error-text {
+	color: var(--text-erc);
+	font-size: 2.2rem;
+}
