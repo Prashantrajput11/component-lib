@@ -1,0 +1,36 @@
+@import "./components/alert.css";
+@import "./components/avatar.css";
+@import "./components/badge.css";
+@import "./components/button.css";
+@import "./components/card.css";
+@import "./components/image.css";
+@import "./components/input.css";
+@import "./components/text.css";
+@import "./components/navbar.css";
+@import "./components/modal.css";
+@import "./components/rating.css";
+@import "./components/slider.css";
+@import "./docs.css";
+@import "./landingpage.css";
+@import "./shared/shared.css";
+
+:root {
+	--primary-color: #831843;
+	--secondary-color: #ebecf0;
+	--teritiary-color: #d0d4d7;
+	--button-primary-color: #0d6efd;
+	--button-secondary-color: #6c757d;
+	--button-success-color: #198754;
+	--button-danger-color: #dc3545;
+	--button-warning-color: #ffc107;
+	--button-info-color: #0dcaf0;
+	--card-bg-color: #000000;
+	--status-active-color: #00ff00;
+	--status-offline-color: #ff0000;
+	--status-away-color: #313531ea;
+	--input-sc: #00ff00;
+	--input-erc: #ff0000;
+	--text-sc: #00ff00;
+	--text-erc: #ff0000;
+	--usage-button-hv: #d3d3d3;
+}

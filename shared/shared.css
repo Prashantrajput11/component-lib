@@ -1,0 +1,125 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+	background-color: var(--secondary-color);
+}
+
+/*******************/
+/* General Styles */
+/********************/
+
+.container {
+	max-width: 140rem;
+	margin: 6rem;
+}
+.grid {
+	display: grid;
+	gap: 4.2rem;
+}
+.grid--1--col {
+	grid-template-columns: repeat(2, 1fr);
+	margin: 12rem;
+}
+
+.margin-bottom-sm {
+	margin-bottom: 2.4rem;
+}
+
+.text-color-secondary {
+	color: var(--secondary-color);
+}
+
+/*******************/
+/* CSS for header */
+/********************/
+.header {
+	background-color: var(--primary-color);
+	color: white;
+	height: 6rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+.header a h3 {
+	color: var(--secondary-color);
+	text-decoration: none;
+}
+.header-item {
+	margin: 1rem 1rem;
+	font-size: 2rem;
+}
+
+.main-nav-list {
+	display: flex;
+}
+
+.link {
+	list-style-type: none;
+}
+
+.link a {
+	margin-right: 2.4rem;
+	color: var(--secondary-color);
+	text-decoration: none;
+}
+
+.link-item {
+	color: var(--secondary-color);
+	text-decoration: none;
+	list-style-type: none;
+}
+
+/*************************/
+/******Headings CSS******/
+/*************************/
+
+.primary-heading {
+	font-size: 5.2rem;
+	margin: 1.6rem 0;
+}
+.secondary-heading {
+	font-size: 4.4rem;
+	margin: 1.6rem 0;
+}
+.teritiary-heading {
+	font-size: 3.6rem;
+	margin: 1.6rem 0;
+}
+.paragraph {
+	font-size: 2.4rem;
+	margin: 1.6rem 0;
+	font-weight: 200;
+}
+
+.text-bold {
+	font-size: 4.2rem;
+	font-weight: 600;
+	color: var(--secondary-color);
+}
+
+/*****************************/
+/******Links Shared CSS******/
+/*****************************/
+
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
