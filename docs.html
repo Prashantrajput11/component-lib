@@ -1,0 +1,1417 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<!--Font awesome CDN link-->
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+			integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+			crossorigin="anonymous"
+		/>
+
+		<link rel="stylesheet" href="./shared/shared.css" />
+		<link rel="stylesheet" href="./landingpage.css" />
+		<link rel="stylesheet" href="docs.css" />
+		<link rel="stylesheet" href="./components/alert.css" />
+		<link rel="stylesheet" href="./components/avatar.css" />
+		<link rel="stylesheet" href="./components/badge.css" />
+		<link rel="stylesheet" href="./components/button.css" />
+		<link rel="stylesheet" href="./components/card.css" />
+		<link rel="stylesheet" href="./components/image.css" />
+		<link rel="stylesheet" href="./components/input.css" />
+		<link rel="stylesheet" href="./components/text.css" />
+		<link rel="stylesheet" href="./components/navbar.css" />
+		<link rel="stylesheet" href="./components/modal.css" />
+		<link rel="stylesheet" href="./components/rating.css" />
+		<link rel="stylesheet" href="./components/slider.css" />
+	</head>
+	<body>
+		<!-- header component starts -->
+		<header class="header">
+			<a href="index.html" class="link-item">
+				<h3 class="logo header-item">BreezeUI</h3>
+			</a>
+			<nav class="main-nav header-item"> Documentation </nav>
+		</header>
+		<!-- header component ends -->
+
+		<!-- main container starts -->
+		<div class="main-container">
+			<!-- sidebar component starts -->
+
+			<div class="sidebar-container">
+				<div class="component-links">
+					<ul class="sidebar-links">
+						<li>
+							<a href="#Alert">Alert</a>
+						</li>
+
+						<li>
+							<a href="#Avatar">Avatar</a>
+						</li>
+
+						<li>
+							<a href="#Badge">Badge</a>
+						</li>
+
+						<li>
+							<a href="#Buttons">Button</a>
+						</li>
+
+						<li>
+							<a href="#Cards">Card</a>
+						</li>
+
+						<li>
+							<a href="#Image">Image</a>
+						</li>
+
+						<li>
+							<a href="#Input">Input</a>
+						</li>
+
+						<li>
+							<a href="#Navbar">Navigation</a>
+						</li>
+
+						<li>
+							<a href="#Ratings">Rating</a>
+						</li>
+
+						<li>
+							<a href="#Slider">Slider</a>
+						</li>
+					</ul>
+
+					<!-- p1 ends -->
+				</div>
+			</div>
+
+			<!-- sidebar component ends -->
+
+			<!-- component starts -->
+			<div class="components-container">
+				<!-- Alert component starts -->
+				<div class="component-flex">
+					<div class="component--text-box" id="Alerts">
+						<h2 class="secondary-heading"> Alert </h2>
+						<p class="paragraph">
+							Alerts are used to provide useful messages for user interaction on
+							the UI
+						</p>
+
+						<h3 class="secondary-heading"> Example </h3>
+						<p class="paragraph">
+							BreezeUI provides four types of alerts mainly : Primary Alert,
+							Secondary Alert, Succesful Alert, Danger Alert. Use
+							<span class="bz-color">alert</span> to add this component to your
+							web page and use <span class="bz-color">alert--primary</span>,
+							<span class="bz-color">alert--secondary</span>,
+							<span class="bz-color">alert--success</span>,
+							<span class="bz-color">alert--danger</span> as per your needs.
+						</p>
+					</div>
+
+					<!-- Alert component showcase starts -->
+					<div class="component--showcase">
+						<div class="alert alert--primary">This is a primary alert!</div>
+						<div class="alert alert--secondary">This is a secondary alert</div>
+						<div class="alert alert--success">This is a success alert</div>
+						<div class="alert alert--danger">This is a danger alert</div>
+					</div>
+					<!-- Alert component showcase  ends-->
+
+					<!-- Alert code snippet starts -->
+					<div class="component--code-snippet">
+						<iframe
+							src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=707&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert--primary%2522%253EThis%2520is%2520a%2520primary%2520alert%21%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert--secondary%2522%253EThis%2520is%2520a%2520secondary%2520alert%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert--success%2522%253EThis%2520is%2520a%2520success%2520alert%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert--danger%2522%253EThis%2520is%2520a%2520danger%2520alert%253C%252Fdiv%253E%250A"
+							style="
+								width: 100%;
+								height: 286px;
+								border: 0;
+								transform: scale(1);
+								overflow: hidden;
+							"
+							sandbox="allow-scripts allow-same-origin"
+						>
+						</iframe>
+					</div>
+					<!-- Alert code snippet ends-->
+				</div>
+
+				<!-- Alert component end -->
+
+				<hr />
+				<hr />
+
+				<!-- Avatar component stars -->
+				<div class="component-flex component-avatar">
+					<div class="component--text-box margin-bottom-sm" id="Avatar">
+						<h2 class="secondary-heading"> Avatar </h2>
+
+						<p class="paragraph">
+							Avatars are used to represent a user. These can be image avatars
+							or text avatars.
+						</p>
+
+						<h3 class="teritiary-heading"> Example </h3>
+
+						<p class="paragraph">
+							BreezeUI provides two types of avatars: er Alert. Mainly : Avatar
+							with image and avatar with text. Add
+							<span class="bz-color">avatar--xl</span>,
+							<span class="bz-color">avatar--lg</span>,
+							<span class="bz-color">avatar--md</span>,
+							<span class="bz-color">avatar--sm</span>,
+							<span class="bz-color">avatar--xsm</span> as per requirements.
+						</p>
+					</div>
+
+					<!-- avatar  image component showcase -->
+					<div class="component-showcase avatar-showcase margin-bottom-sm">
+						<div class="avatar avatar--xl">
+							<img src="./assets/card-image.jpg" class="avatar--xl" />
+						</div>
+
+						<div class="avatar avatar--lg">
+							<img
+								src="./assets/card-image.jpg"
+								alt=""
+								srcset=""
+								class="avatar--lg"
+							/>
+						</div>
+
+						<div class="avatar avatar--md">
+							<img
+								src="./assets/card-image.jpg"
+								alt=""
+								srcset=""
+								class="avatar--md"
+							/>
+						</div>
+
+						<div class="avatar avatar--sm">
+							<img
+								src="./assets/card-image.jpg"
+								alt=""
+								srcset=""
+								class="avatar--sm"
+							/>
+						</div>
+
+						<div class="avatar avatar--xsm">
+							<img
+								src="./assets/card-image.jpg"
+								alt=""
+								srcset=""
+								class="avatar--xsm"
+							/>
+						</div>
+					</div>
+
+					<!-- Avatar image code snippet -->
+					<div class="component--code-snippet margin-bottom-sm">
+						<iframe
+							src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=707&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2509%2509%253Cimg%2520src%253D%2522.%252Fassets%252Favatar-asset.webp%2522%2520class%253D%2522avatar--xl%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fassets%252Favatar-asset.webp%2522%2520class%253D%2522avatar--lg%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fassets%252Favatar-asset.webp%2522%2520class%253D%2522avatar--md%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fassets%252Favatar-asset.webp%2522%2520class%253D%2522avatar--sm%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fassets%252Favatar-asset.webp%2522%2520class%253D%2522avatar--xsm%2522%252F%253E%250A"
+							style="
+								width: 100%;
+								height: 306px;
+								border: 0;
+								transform: scale(1);
+								overflow: hidden;
+							"
+							sandbox="allow-scripts allow-same-origin"
+						>
+						</iframe>
+					</div>
+
+					<!-- avatar text -->
+					<div class="component-showcase margin-bottom-sm">
+						<h3 class="secondary-heading"> Example Of Text Avatar </h3>
+						<p class="paragraph">
+							To use text avatars, add
+							<span class="bz-color">avatar--text</span> and
+							<span class="bz-color"> avatar--xl </span>,
+							<span class="bz-color"> avatar--lg </span>,
+							<span class="bz-color"> avatar--md </span>,
+							<span class="bz-color"> avatar--sm </span>,
+							<span class="bz-color"> avatar--xsm </span> as per needs.
+						</p>
+					</div>
+
+					<!-- avatar text component showcase -->
+					<div class="component-showcase avatar-showcase margin-bottom-sm">
+						<div class="avatar--xl avatar--text"> PR </div>
+
+						<div class="avatar--lg avatar--text"> PR </div>
+
+						<div class="avatar--md avatar--text"> PR </div>
+
+						<div class="avatar--sm avatar--text"> PR </div>
+
+						<div class="avatar--xsm avatar--text"> PR </div>
+					</div>
+
+					<div class="component--code-snippet margin-bottom-sm">
+						<iframe
+							src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=1300&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=13px&lh=131%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-xl%2520text-avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520PR%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-lg%2520text-avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520PR%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-md%2520text-avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520PR%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-sm%2520text-avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520PR%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-xsm%2520text-avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520PR%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-sm%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fassets%252Favatar-asset.webp%2522%2520alt%253D%2522%2522%2520srcset%253D%2522%2522%2520class%253D%2522avatar-sm%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-xsm%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fassets%252Favatar-asset.webp%2522%2520alt%253D%2522%2522%2520srcset%253D%2522%2522%2520class%253D%2522avatar-xsm%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+							style="
+								width: 100%;
+								height: 334px;
+								border: 0;
+								transform: scale(1);
+								overflow: hidden;
+							"
+							sandbox="allow-scripts allow-same-origin"
+						>
+						</iframe>
+					</div>
+					<!-- avatar text ends -->
+				</div>
+
+				<!-- Avatar compoenent ends -->
+
+				<hr />
+				<hr />
+
+				<!-- Badge component starts -->
+
+				<div class="component-flex">
+					<div class="component--text-box margin-bottom-sm" id="Badge">
+						<h2 class="secondary-heading"> Badge </h2>
+
+						<p class="paragraph">
+							Badge are used to represent a user's status. These can be image
+							avatars or text avatars.
+						</p>
+
+						<h3 class="teritiary-heading"> Example </h3>
+
+						<p class="paragraph">
+							BreezeUI provides two types of badges: er Alert. Mainly : Avatar
+							with image and avatar with text. Add
+							<span class="bz-color">badge--status-active</span>,
+							<span class="bz-color">badge--status-offline</span>,
+							<span class="bz-color">badge--status-away</span>
+						</p>
+					</div>
+
+					<!-- Badge component showcase -->
+					<div class="component-showcase badge-showcase margin-bottom-sm">
+						<div class="avatar--lg">
+							<img
+								src="./assets/card-image.jpg"
+								alt=""
+								srcset=""
+								class="badge--image"
+							/>
+							<div class="badge-status badge--status-active"></div>
+						</div>
+
+						<div class="avatar--lg">
+							<img
+								src="./assets/card-image.jpg"
+								alt=""
+								srcset=""
+								class="badge--image"
+							/>
+							<div class="badge-status badge--status-offline"></div>
+						</div>
+
+						<div class="avatar--lg">
+							<img
+								src="./assets/card-image.jpg"
+								alt=""
+								srcset=""
+								class="badge--image"
+							/>
+							<div class="badge-status badge--status-away"></div>
+						</div>
+					</div>
+					<!-- Badge component showcase -->
+
+					<!-- Badge code snippet  starts-->
+					<div class="component--code-snippet margin-bottom-sm">
+						<iframe
+							src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=707&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=22px&ph=100px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=143%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%253Cdiv%2520class%253D%2522avatar--lg%2522%253E%250A%2509%2509%2509%2509%253Cimg%2520src%253D%2522.%252Fassets%252Fcard-image.jpg%2522%2520class%253D%2522badge--image%2522%252F%253E%250A%2509%2509%2509%2509%253Cdiv%2520class%253D%2522badge-status%2520badge--status-active%2522%253E%253C%252Fdiv%253E%250A%2509%2509%2509%2509%253C%252Fdiv%253E%250A%250A%2509%2509%2509%2509%253Cdiv%2520class%253D%2522avatar--lg%2522%253E%250A%2509%2509%2509%2509%253Cimg%2520src%253D%2522.%252Fassets%252Fcard-image.jpg%2522%2520class%253D%2522badge--image%2522%252F%253E%250A%2509%2509%2509%2509%253Cdiv%2520class%253D%2522badge-status%2520badge--status-offline%2522%253E%253C%252Fdiv%253E%250A%2509%2509%2509%2509%253C%252Fdiv%253E%250A%250A%2509%2509%2509%2509%253Cdiv%2520class%253D%2522avatar--lg%2522%253E%250A%2509%2509%2509%2509%253Cimg%2520src%253D%2522.%252Fassets%252Fcard-image.jpg%2522%2520class%253D%2522badge--image%2522%252F%253E%250A%2509%2509%2509%2509%253Cdiv%2520class%253D%2522badge-status%2520badge--status-away%2522%253E%253C%252Fdiv%253E%250A%2509%2509%2509%2509%253C%252Fdiv%253E%250A%250A%2509%2509%2509%2509%2509%2509"
+							style="
+								width: 100%;
+								height: 438px;
+								border: 0;
+								transform: scale(1);
+								overflow: hidden;
+							"
+							sandbox="allow-scripts allow-same-origin"
+						>
+						</iframe>
+					</div>
+					<!-- Badge code snippet ends-->
+
+					<!-- Badge on icons  starts-->
+					<div class="component-showcase margin-bottom-sm">
+						<h3 class="secondary-heading"> Example Of Badge on icons </h3>
+						<p class="paragraph">
+							Bade on icons can be used to show notification counts, items added
+							to cart etc. Add these classes
+							<span class="bz-color">badge-icons</span> and
+							<span class="bz-color">badge-icon-link</span>.
+						</p>
+					</div>
+					<!-- Badge on icons ends -->
+
+					<!-- Badge on icons component showcase -->
+					<div class="component--showcase margin-bottom-sm">
+						<div class="badge-icons-container">
+							<div class="badge-icons">
+								<i class="fas fa-shopping-cart"></i>
+								<span class="badge-icon-link">4</span>
+							</div>
+							<div class="badge-icons">
+								<i class="fab fa-whatsapp"></i>
+								<span class="badge-icon-link">7</span>
+							</div>
+						</div>
+					</div>
+
+					<!-- Badge on icons code snippet starts -->
+					<div class="component--code-snippet margin-bottom-sm">
+						<iframe
+							src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=theme%3Anv1kalbuws&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=11px&ph=100px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge-icons%2522%253E%250A%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%253Cspan%2520class%253D%2522badge-icon-link%2522%253E4%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-icons%2522%253E%250A%253Ci%2520class%253D%2522fab%2520fa-whatsapp%2522%253E%253C%252Fi%253E%250A%253Cspan%2520class%253D%2522badge-icon-link%2522%253E7%253C%252Fspan%253E%2520%2520%2520%250A%253C%252Fdiv%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%250A"
+							style="
+								width: 100%;
+								height: 296px;
+								border: 0;
+								transform: scale(1);
+								overflow: hidden;
+							"
+							sandbox="allow-scripts allow-same-origin"
+						>
+						</iframe>
+					</div>
+					<!-- Badge on icons ends-->
+				</div>
+				<!-- Badge component ends -->
+
+				<hr />
+				<hr />
+				<!-- Button component starts -->
+
+				<div class="component-flex">
+					<div class="component--text-box" id="Buttons">
+						<h2 class="secondary-heading"> Button </h2>
+						<p class="paragraph">
+							Buttons are used to provide user interactivity on web pages like
+							adding items to cart, logging in, registering etc.
+						</p>
+
+						<h3 class="secondary-heading"> Example of buttons </h3>
+						<p class="paragraph">
+							BreezeUI provides four types of Buttons mainly : Primary Alert,
+							Secondary Alert, Succesful Alert, Danger Alert. Add
+							<span class="bz-color">btn</span> to add a button and add
+							<span class="bz-color">btn--primary</span>,
+							<span class="bz-color">btn--secondary</span>,
+							<span class="bz-color">btn--success</span>,
+							<span class="bz-color">btn--danger</span>,
+							<span class="bz-color">btn--warning</span>,
+							<span class="bz-color">btn--info</span>,
+							<span class="bz-color">btn--link</span> as per your specific
+							needs.
+						</p>
+					</div>
+
+					<!-- button component showcase -->
+					<div class="component--showcase">
+						<button class="btn btn--primary">Primary</button>
+						<button class="btn btn--secondary">Secondary</button>
+						<button class="btn btn--success">Success</button>
+						<button class="btn btn--danger">Danger</button>
+						<button class="btn btn--warning">Warning</button>
+						<button class="btn btn--info">Info</button>
+						<button class="btn btn-link">
+							<a href="#">Link</a>
+						</button>
+					</div>
+
+					<!-- Button general code snippet -->
+					<div class="component--code-snippet">
+						<iframe
+							src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=1300&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=13px&lh=131%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn--primary%2522%253EPrimary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn--secondary%2522%253ESecondary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn--success%2522%253ESuccess%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn--danger%2522%253EDanger%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn--warning%2522%253EWarning%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520%2520class%253D%2522btn%2520btn-info%2522%253EInfo%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520%2520class%253D%2522btn%2520btn-link%2522%253E%253Ca%2520href%253D%2522%2523%2522%253ELink%253C%252Fa%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A"
+							style="
+								width: 100%;
+								height: 356px;
+								border: 0;
+								transform: scale(1);
+								overflow: hidden;
+							"
+							sandbox="allow-scripts allow-same-origin"
+						>
+						</iframe>
+					</div>
+
+					<div class="button--outline">
+						<h3 class="secondary-heading"> Example of outline buttons </h3>
+						<p class="paragraph">
+							Use <span class="bz-color">btn</span> to add button and
+							<span class="bz-color"></span>
+							<span class="bz-color">btn--outline-primary</span>,
+							<span class="bz-color">btn--outline-secondary</span>,
+							<span class="bz-color">btn--outline-success</span>,
+							<span class="bz-color">btn--outline-danger</span>,
+							<span class="bz-color">btn--outline-warning</span>,
+							<span class="bz-color">btn--outline-Info</span> as per needs.
+						</p>
+					</div>
+
+					<!-- Button outline  component showcase -->
+					<div class="component--showcase">
+						<button class="btn btn--outline-primary">Primary</button>
+						<button class="btn btn--outline-secondary">Secondary</button>
+						<button class="btn btn--outline-success">Success</button>
+						<button class="btn btn--outline-danger">Danger</button>
+						<button class="btn btn--outline-warning">Warning</button>
+						<button class="btn btn--outline-info">Info</button>
+					</div>
+
+					<!-- button outline code snippet -->
+					<div class="component--code-snippet">
+						<iframe
+							src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=1300&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=13px&lh=131%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn--outline-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn--outline-secondary%2522%253ESecondary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn--outline-success%2522%253ESuccess%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn--outline-danger%2522%253EDanger%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn--outline-warning%2522%253EWarning%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520%2520class%253D%2522btn%2520btn--outline-info%2522%253EInfo%253C%252Fbutton%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A"
+							style="
+								width: 100%;
+								height: 356px;
+								border: 0;
+								transform: scale(1);
+								overflow: hidden;
+							"
+							sandbox="allow-scripts allow-same-origin"
+						>
+						</iframe>
+					</div>
+
+					<!-- button disabled starts -->
+
+					<div class="button--disabled">
+						<h3 class="secondary-heading"> Example of disabled buttons </h3>
+						<p class="paragraph">
+							You can also use outline buttons for your web pages.
+						</p>
+					</div>
+
+					<!-- button disabled  component showcase -->
+					<div class="component--showcase">
+						<button type="button" class="btn btn--primary" disabled
+							>Primary</button
+						>
+						<button class="btn btn--secondary" disabled>Secondary</button>
+					</div>
+
+					<!-- button disable code snippet -->
+					<div class="component--code-snippet">
+						<iframe
+							src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=theme%3Anv1kalbuws&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=11px&ph=100px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2509%253Cbutton%2520class%253D%2522btn%2520btn--secondary%2522%2520disabled%253ESecondary%253C%252Fbutton%253E%250A%250A%250A"
+							style="
+								width: 100%;
+								height: 176px;
+								border: 0;
+								transform: scale(1);
+								overflow: hidden;
+							"
+							sandbox="allow-scripts allow-same-origin"
+						>
+						</iframe>
+					</div>
+					<!-- button disabled ends -->
+
+					<!-- button size starts -->
+
+					<div class="button--size">
+						<h3 class="secondary-heading">
+							Example of different buttons size
+						</h3>
+						<p class="paragraph">
+							Use class <span class="bz-color">btn-lg</span> and
+							<span class="bz-color">btn-sm</span>
+						</p>
+					</div>
+
+					<!-- button disabled  component showcase -->
+					<div class="component--showcase">
+						<button class="btn btn--primary btn-lg">Large button</button>
+						<button class="btn btn--secondary btn-sm">Small button</button>
+					</div>
+
+					<!-- button disable code snippet -->
+					<div class="component--code-snippet">
+						<iframe
+							src="https://carbon.now.sh/embed?bg=rgba%28134%2C57%2C57%2C1%29&t=one-light&wt=none&l=auto&width=1300&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=13px&lh=131%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn--primary%2520btn-lg%2522%2520%253ELarge%2520bsutton%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn--secondary%2520btn-sm%2520%2522%2520%253ESmall%2520button%253C%252Fbutton%253E%250A"
+							style="
+								width: 100%;
+								height: 237px;
+								border: 0;
+								transform: scale(1);
+								overflow: hidden;
+							"
+							sandbox="allow-scripts allow-same-origin"
+						>
+						</iframe>
+					</div>
+					<!-- button size ends -->
+				</div>
+
+				<!-- Button component ends -->
+
+				<hr />
+				<hr />
+
+				<!-- Card component starts -->
+
+				<div class="component-flex">
+					<div class="component--text-box margin-bottom-sm" id="Cards">
+						<h2 class="secondary-heading"> Card </h2>
+
+						<p class="paragraph">
+							Cards include a variety of entities like text, buttons, images.
+							You can use card to show collective data,
+						</p>
+
+						<h3 class="teritiary-heading"> Example </h3>
+
+						<p class="paragraph"> BreezeUI provides 5 types of cards. </p>
+					</div>
+
+					<!-- Horizontal card component showcase starts-->
+					<div class="component--showcase margin-bottom-sm">
+						<div class="hz--card-container">
+							<div class="hz--card-img-box">
+								<img src="./assets/card-image.jpg" />
+							</div>
+
+							<div class="hz--card-text-box">
+								<p class="product-name">White Shirt</p>
+								<span class="" product-description>White shirt for men</span>
+								<span>price : $400</span>
+
+								<div class="hz--card-btn-box">
+									<a href="" class="btn primary-cta--card card-cta-btn"
+										>Add to cart</a
+									>
+									<a href="" class="btn secondary-cta--card card-cta-btn"
+										>Add to wishlist</a
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Horizontal card component showcase ends-->
+
+					<!-- Horizontal card  code snippet starts -->
+					<div class="component--code-snippet margin-bottom-sm">
+						<iframe
+							src="https://carbon.now.sh/embed?bg=rgba%28134%2C57%2C57%2C1%29&t=one-light&wt=none&l=auto&width=1300&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=13px&lh=131%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522hz--card-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522hz--card-img-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fassets%252Fpexels-nitin-khajotia-1516680.jpg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522hz--card-text-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522product-name%2522%253EWhite%2520Shirt%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522%2522product-description%253EWhiet%2520shirt%2520for%2520men%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253Eprice%2520%253A%2520%2524400%253C%252Fspan%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522hz--card-btn-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522btn%2520%2520primary-cta--card%2520card-cta-btn%2522%253EAdd%2520to%2520cart%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522btn%2520%2520secondary-cta--card%2520card-cta-btn%2522%253EAdd%2520to%2520wishlist%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A"
+							style="
+								width: 996px;
+								height: 544px;
+								border: 0;
+								transform: scale(1);
+								overflow: hidden;
+							"
+							sandbox="allow-scripts allow-same-origin"
+						>
+						</iframe>
+					</div>
+					<!-- Horizontal card  code snippet starts -->
+
+					<!--  Vertical card component starts -->
+					<h3 class="teritiary-heading"
+						>Example of vertical card and dismiss card</h3
+					>
+					<div class="component--showcase margin-bottom-sm">
+						<div class="vt--card-container">
+							<div class="vt--card-img-box">
+								<img src="./assets/card-image.jpg" />
+							</div>
+
+							<div class="vt--card-text-box">
+								<p class="vt--product-name">White Shirt</p>
+								<p class="vt--product-description">Whiet shirt for men</p>
+								<p class="vt--product-price">price : $400</p>
+
+								<div class="vt--card-btn-box">
+									<a href="" class="btn primary-cta--card card-cta-btn"
+										>Add to cart</a
+									>
+									<a href="" class="btn secondary-cta--card card-cta-btn"
+										>Add to wishlist</a
+									>
+								</div>
+							</div>
+						</div>
+
+						<!-- card with dismiss -->
+						<div class="vt--card-container">
+							<div class="vt--card-img-box">
+								<img src="./assets/card-image.jpg" />
+								<span> <i class="fas fa-times-circle dismiss-icon"></i></span>
+							</div>
+
+							<div class="vt--card-text-box">
+								<p class="vt--product-name">White Shirt</p>
+								<p class="vt--product-description">Whiet shirt for men</p>
+								<p class="vt--product-price">price : $400</p>
+
+								<div class="vt--card-btn-box">
+									<a href="" class="btn primary-cta--card card-cta-btn"
+										>Add to cart</a
+									>
+									<a href="" class="btn secondary-cta--card card-cta-btn"
+										>Add to wishlist</a
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- vertical card  code snippet starts-->
+
+					<div class="component--code-snippet margin-bottom-sm">
+						<iframe
+							src="https://carbon.now.sh/embed?bg=rgba%28134%2C57%2C57%2C1%29&t=one-light&wt=none&l=auto&width=1300&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=13px&lh=131%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vt--card-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vt--card-img-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fassets%252Fpexels-nitin-khajotia-1516680.jpg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vt--card-text-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522vt--product-name%2522%253EWhite%2520Shirt%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522vt--product-description%2522%253EWhiet%2520shirt%2520for%2520men%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522vt--product-price%2522%253Eprice%2520%253A%2520%2524400%253C%252Fp%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vt--card-btn-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522btn%2520%2520primary-cta--card%2520card-cta-btn%2522%253EAdd%2520to%2520cart%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522btn%2520%2520secondary-cta--card%2520card-cta-btn%2522%253EAdd%2520to%2520wishlist%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A"
+							style="
+								width: 100%;
+								height: 544px;
+								border: 0;
+								transform: scale(1);
+								overflow: hidden;
+							"
+							sandbox="allow-scripts allow-same-origin"
+						>
+						</iframe>
+					</div>
+					<!-- vertical card  code snippet ends -->
+
+					<!-- Verical card component ends -->
+
+					<!-- Card shadow component starts -->
+
+					<div class="button--size">
+						<h3 class="secondary-heading"> Example of Card with shadow </h3>
+						<p class="paragraph">
+							You can add different button sizes by using class name
+						</p>
+					</div>
+
+					<div class="component--showcase margin-bottom-sm">
+						<div class="vt--card-container card-shadow">
+							<div class="vt--card-img-box">
+								<img src="./assets/card-image.jpg" />
+							</div>
+
+							<div class="vt--card-text-box">
+								<p class="vt--product-name">White Shirt</p>
+								<p class="vt--product-description">Whiet shirt for men</p>
+								<p class="vt--product-price">price : $400</p>
+
+								<div class="vt--card-btn-box">
+									<a href="" class="btn primary-cta--card card-cta-btn"
+										>Add to cart</a
+									>
+									<a href="" class="btn secondary-cta--card card-cta-btn"
+										>Add to wishlist</a
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- shadow card  code snippet -->
+					<div class="component--code-snippet margin-bottom-sm">
+						<iframe
+							src="https://carbon.now.sh/embed?bg=rgba%28134%2C57%2C57%2C1%29&t=one-light&wt=none&l=auto&width=1300&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=13px&lh=131%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vt--card-container%2520card-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vt--card-img-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fassets%252Fpexels-nitin-khajotia-1516680.jpg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vt--card-text-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522vt--product-name%2522%253EWhite%2520Shirt%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522vt--product-description%2522%253EWhiet%2520shirt%2520for%2520men%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522vt--product-price%2522%253Eprice%2520%253A%2520%2524400%253C%252Fp%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vt--card-btn-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522btn%2520%2520primary-cta--card%2520card-cta-btn%2522%253EAdd%2520to%2520cart%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522btn%2520%2520secondary-cta--card%2520card-cta-btn%2522%253EAdd%2520to%2520wishlist%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%250A"
+							style="
+								width: 100%;
+								height: 493px;
+								border: 0;
+								transform: scale(1);
+								overflow: hidden;
+							"
+							sandbox="allow-scripts allow-same-origin"
+						>
+						</iframe>
+					</div>
+
+					<!-- Card shadow component ends -->
+
+					<!-- card with badge starts -->
+					<div class="button--size">
+						<h3 class="secondary-heading"> Example of Card with badge </h3>
+						<p class="paragraph">
+							You can add different button sizes by using class name
+						</p>
+					</div>
+
+					<div class="component--showcase margin-bottom-sm">
+						<div class="card--badge card-shadow">
+							<div class="vt--card-img-box">
+								<img src="./assets/card-image.jpg" />
+							</div>
+
+							<div class="vt--card-text-box">
+								<span class="badge-icon">50% off</span>
+								<p class="vt--product-name">White Shirt</p>
+								<p class="vt--product-description">Whiet shirt for men</p>
+								<p class="vt--product-price">price : $400</p>
+
+								<div class="vt--card-btn-box">
+									<a href="" class="btn primary-cta--card card-cta-btn"
+										>Add to cart</a
+									>
+									<a href="" class="btn secondary-cta--card card-cta-btn"
+										>Add to wishlist</a
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- shadow card  code snippet -->
+					<div class="component--code-snippet margin-bottom-sm">
+						<iframe
+							src="https://carbon.now.sh/embed?bg=rgba%28134%2C57%2C57%2C1%29&t=one-light&wt=none&l=auto&width=1300&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=13px&lh=131%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vt--card-container%2520card-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vt--card-img-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fassets%252Fpexels-nitin-khajotia-1516680.jpg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vt--card-text-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522vt--product-name%2522%253EWhite%2520Shirt%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522vt--product-description%2522%253EWhiet%2520shirt%2520for%2520men%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522vt--product-price%2522%253Eprice%2520%253A%2520%2524400%253C%252Fp%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vt--card-btn-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522btn%2520%2520primary-cta--card%2520card-cta-btn%2522%253EAdd%2520to%2520cart%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522btn%2520%2520secondary-cta--card%2520card-cta-btn%2522%253EAdd%2520to%2520wishlist%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%250A"
+							style="
+								width: 100%;
+								height: 290px;
+								border: 0;
+								transform: scale(1);
+								overflow: hidden;
+							"
+							sandbox="allow-scripts allow-same-origin"
+						>
+						</iframe>
+					</div>
+					<!-- card with badge ends -->
+
+					<!-- card with text overlay starts -->
+
+					<div class="button--size">
+						<h3 class="secondary-heading">
+							Example of Card with text overlay
+						</h3>
+						<p class="paragraph"> You can add different button </p>
+					</div>
+
+					<div class="component--showcase margin-bottom-sm">
+						<div class="card--overlay">
+							<div class="card--overlay-imgbox">
+								<img src="./assets/card-image.jpg" />
+							</div>
+
+							<div class="vt--card-text-box overlay-text">
+								<p class="vt--product-name">White Shirt</p>
+								<p class="vt--product-description">Whiet shirt for men</p>
+								<p class="vt--product-price">price : $400</p>
+
+								<div class="vt--card-btn-box">
+									<a href="" class="btn primary-cta--card card-cta-btn"
+										>Add to cart</a
+									>
+									<a href="" class="btn secondary-cta--card card-cta-btn"
+										>Add to wishlist</a
+									>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- overlay card  code snippet -->
+					<div class="component--code-snippet margin-bottom-sm">
+						<iframe
+							src="https://carbon.now.sh/embed?bg=rgba%28134%2C57%2C57%2C1%29&t=one-light&wt=none&l=auto&width=1300&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=13px&lh=131%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vt--card-container%2520card-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vt--card-img-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fassets%252Fpexels-nitin-khajotia-1516680.jpg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vt--card-text-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522vt--product-name%2522%253EWhite%2520Shirt%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522vt--product-description%2522%253EWhiet%2520shirt%2520for%2520men%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522vt--product-price%2522%253Eprice%2520%253A%2520%2524400%253C%252Fp%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522vt--card-btn-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522btn%2520%2520primary-cta--card%2520card-cta-btn%2522%253EAdd%2520to%2520cart%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522btn%2520%2520secondary-cta--card%2520card-cta-btn%2522%253EAdd%2520to%2520wishlist%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%250A"
+							style="
+								width: 100%;
+								height: 290px;
+								border: 0;
+								transform: scale(1);
+								overflow: hidden;
+							"
+							sandbox="allow-scripts allow-same-origin"
+						>
+						</iframe>
+					</div>
+
+					<!-- card with text overlay ends -->
+
+					<!-- card with text only starts -->
+
+					<div class="button--size">
+						<h3 class="secondary-heading"> Example of Card with text only </h3>
+						<p class="paragraph"> You can add different button </p>
+					</div>
+
+					<div class="component--showcase margin-bottom-sm">
+						<div class="card--text-only">
+							<p class="card--text-only-title margin-bottom-sm"
+								>Dummy Text Card</p
+							>
+							<p class="card--text-only-subtitle margin-bottom-sm"
+								>this is a text only card</p
+							>
+							<p class="card--text-only-desc margin-bottom-sm"
+								>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+								Accusantium laborum est maiores reiciendis, culpa ipsam
+								explicabo fuga sequi error delectus.</p
+							>
+							<a href="" class="btn--primary card--text-only-cta">Read more</a>
+						</div>
+					</div>
+
+					<!--  card  with text only code snippet -->
+					<div class="component--code-snippet margin-bottom-sm">
+						<iframe
+							src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-light&wt=none&l=auto&width=1300&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=13px&lh=131%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522%2520card--text-only%2522%253E%250A%2520%2520%253Cp%2520class%253D%2522card--text-only-title%2520margin-bottom-sm%2522%253EDummy%2520Text%2520Card%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522card--text-only-subtitle%2520margin-bottom-sm%2522%253E%250A%2520%2520%2520%2520this%2520is%2520a%2520text%2520only%2520card%250A%2520%2520%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522card--text-only-desc%2520margin-bottom-sm%2522%253E%250A%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%252C%2520adipisicing%2520elit.%2520Accusantium%250A%2520%2520%2520%2520laborum%2520est%2520maiores%2520reiciendis%252C%2520culpa%2520ipsam%2520explicabo%2520fuga%2520sequi%2520error%250A%2520%2520%2520%2520delectus.%250A%2520%2520%253C%252Fp%253E%250A%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522btn--primary%2520card--text-only-cta%2520%2522%253E%250A%2520%2520%2520%2520Read%2520more%250A%2520%2520%253C%252Fa%253E%250A%253C%252Fdiv%253E%250A"
+							style="
+								width: 100%;
+								height: 202px;
+								border: 0;
+								transform: scale(1);
+								overflow: hidden;
+							"
+							sandbox="allow-scripts allow-same-origin"
+						>
+						</iframe>
+					</div>
+					<!-- card with text only ends -->
+				</div>
+
+				<!---Card component ends -->
+				<hr />
+				<hr />
+
+				<!-- Image component starts -->
+				<div class="component-flex">
+					<div class="component--text-box margin-bottom-sm" id="Image">
+						<h2 class="secondary-heading"> Image </h2>
+
+						<p class="paragraph">
+							BreezeUI provides two types of images: Round and responsive image.
+						</p>
+
+						<h3 class="teritiary-heading"> Example </h3>
+						<p class="paragraph">Round Image</p>
+					</div>
+
+					<!--  Round  Image component showcase -->
+					<div class="component--showcase margin-bottom-sm">
+						<div class="image-container">
+							<img
+								src="./assets/image-comp.jpg"
+								alt=""
+								srcset=""
+								class="image--round"
+							/>
+						</div>
+					</div>
+					<!-- Round Image code snippet starts-->
+					<div class="component--code-snippet margin-bottom-sm">
+						<iframe
+							src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-light&wt=none&l=auto&width=1300&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=13px&lh=131%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522image-container%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522.%252Fassets%252Fimage-comp.jpg%2522%2520alt%253D%2522%2522%2520srcset%253D%2522%2522%2520class%253D%2522image--round%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A"
+							style="
+								width: 100%;
+								height: 254px;
+								border: 0;
+								transform: scale(1);
+								overflow: hidden;
+							"
+							sandbox="allow-scripts allow-same-origin"
+						>
+						</iframe>
+					</div>
+					<!-- Round Image code snippet  ends-->
+
+					<!-- Responsive Image component  starts-->
+					<p class="paragraph">Responsive Image</p>
+
+					<div class="component--showcase margin-bottom-sm">
+						<div class="image-container">
+							<img
+								src="./assets/image-comp.jpg"
+								alt=""
+								srcset=""
+								class="image--responsive"
+							/>
+						</div>
+					</div>
+
+					<!-- Resposnive Image code snippet starts-->
+					<div class="component--code-snippet margin-bottom-sm">
+						<iframe
+							src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-light&wt=none&l=auto&width=1300&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=13px&lh=131%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522image-container%2522%253E%250A%2520%2520%253Cimg%2520src%253D%2522.%252Fassets%252Fimage-comp.jpg%2522%2520alt%253D%2522%2522%2520srcset%253D%2522%2522%2520class%253D%2522image--round%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A"
+							style="
+								width: 100%;
+								height: 254px;
+								border: 0;
+								transform: scale(1);
+								overflow: hidden;
+							"
+							sandbox="allow-scripts allow-same-origin"
+						>
+						</iframe>
+					</div>
+					<!-- Responsive Image code snippet  ends-->
+				</div>
+				<!-- Image component ends -->
+				<hr />
+				<hr />
+
+				<!-- Input component starts -->
+				<div class="component-flex">
+					<div class="component--text-box margin-bottom-sm" id="Input">
+						<h2 class="secondary-heading"> Inputs </h2>
+
+						<p class="paragraph">
+							Input component shall be used to take data as an input from the
+							user.
+						</p>
+
+						<h3 class="teritiary-heading"> Example </h3>
+						<p class="paragraph">Input Types</p>
+					</div>
+
+					<!--  Inputa(all)  component showcase -->
+					<div class="component--showcase margin-bottom-sm">
+						<div class="input-flex-container">
+							<div class="input-row">
+								<label class="input-label">Primary input</label>
+								<input type="text" name="" class="input input--primary" />
+							</div>
+
+							<div class="input-row">
+								<label class="input-label">Disabled Input</label>
+								<input
+									type="email"
+									placeholder="enter name"
+									class="input input--disabled"
+								/>
+							</div>
+
+							<div class="input-row">
+								<label class="input-label">Textarea Input</label>
+								<textarea
+									name=""
+									cols="30"
+									rows="8"
+									class="input input--textarea"
+								></textarea>
+							</div>
+						</div>
+					</div>
+
+					<!-- Input (All) code snippet starts-->
+					<div class="component--code-snippet margin-bottom-sm">
+						<iframe
+							src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-light&wt=none&l=auto&width=1300&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=13px&lh=121%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522input-row%2522%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253Clabel%2520class%253D%2522input-label%2522%253EPrimary%2520input%253C%252Flabel%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522%2522%2520class%253D%2522input%2520input--primary%2522%2520%252F%253E%250A%2509%2509%2509%2509%2509%2509%2509%253C%252Fdiv%253E%250A%250A%2509%2509%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522input-row%2522%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253Clabel%2520class%253D%2522input-label%2522%253EDisabled%2520Input%253C%252Flabel%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253Cinput%2520type%253D%2522email%2522%2520placeholder%253D%2522enter%2520name%2522%2520class%253D%2522input%2520input--disabled%2522%250A%2509%2509%2509%2509%2509%2509%2509%2509%252F%253E%250A%2509%2509%2509%2509%2509%2509%2509%253C%252Fdiv%253E%250A%250A%2509%2509%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522input-row%2522%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253Clabel%2520class%253D%2522input-label%2522%253ETextarea%2520Input%253C%252Flabel%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253Ctextarea%2520name%253D%2522%2522%2520cols%253D%252230%2522%2520rows%253D%25228%2522%2520class%253D%2522input%2520input--textarea%2522%253E%253C%252Ftextarea%253E%250A%2509%2509%2509%2509%2509%2509%2509%253C%252Fdiv%253E"
+							style="
+								width: 1011px;
+								height: 441px;
+								border: 0;
+								transform: scale(1);
+								overflow: hidden;
+							"
+							sandbox="allow-scripts allow-same-origin"
+						>
+						</iframe>
+					</div>
+
+					<!-- Input (All) code snippet  ends-->
+
+					<!-- input with validation showcase starts-->
+					<div class="component--showcase margin-bottom-sm">
+						<div class="input--validations-container">
+							<div class="input-row">
+								<label class="input-label">Success input<span>*</span></label>
+								<input
+									type="text"
+									placeholder="enter your name"
+									class="input input--success"
+								/>
+								<span class="succes-text">Valid name format</span>
+							</div>
+
+							<div class="input-row">
+								<label class="input-label">Error input<span>*</span></label>
+								<input
+									type="text"
+									placeholder="enter your mail"
+									class="input input--error"
+								/>
+								<span class="error-text">Invalid id</span>
+							</div>
+						</div>
+					</div>
+
+					<!-- input with validation showcase  ends-->
+
+					<!-- input with validation code snippet -->
+					<div class="component--code-snippet margin-bottom-sm">
+						<iframe
+							src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-light&wt=none&l=auto&width=1300&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=13px&lh=121%25&si=false&es=2x&wm=false&code=%250A%2509%2509%2509%2509%2509%2509%2509%2509%253Clabel%2520class%253D%2522input-label%2522%253ESuccess%2520input%253Cspan%253E*%253C%252Fspan%253E%253C%252Flabel%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253Cinput%2520type%253D%2522text%2522%2520placeholder%253D%2522enter%2520your%2520name%2522%2520class%253D%2522input%2520input--success%2522%252F%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253Cspan%2520class%253D%2522succes-text%2522%253EValid%2520name%2520format%253C%252Fspan%253E%250A%2509%2509%2509%2509%2509%2509%250A%250A%2509%2509%2509%2509%2509%2509%2509%250A%2509%2509%2509%2509%2509%2509%2509%2509%253Clabel%2520class%253D%2522input-label%2522%253EError%2520input%253Cspan%253E*%253C%252Fspan%253E%253C%252Flabel%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253Cinput%2520type%253D%2522text%2522%2520placeholder%253D%2522enter%2520your%2520mail%2522%2520class%253D%2522input%2520input--error%2522%252F%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509%253Cspan%2520class%253D%2522error-text%2522%253EInvalid%2520id%253C%252Fspan%253E%250A%2509%2509%2509%2509%2509%2509%2509"
+							style="
+								width: 100%;
+								height: 359px;
+								border: 0;
+								transform: scale(1);
+								overflow: hidden;
+							"
+							sandbox="allow-scripts allow-same-origin"
+						>
+						</iframe>
+					</div>
+
+					<!-- input with validation code snippet -->
+				</div>
+				<!-- Input component ends -->
+
+				<hr />
+				<hr />
+
+				<!-- Text Utilities component starts -->
+
+				<div class="component-flex">
+					<div class="component--text-box margin-bottom-sm" id="TextUtils">
+						<h2 class="secondary-heading"> TEXT : BreezeUI text utilities</h2>
+
+						<p class="paragraph">
+							Text utilities are used to set headings, alignment, transformation
+							etc to text.
+						</p>
+
+						<h3 class="teritiary-heading"> Example </h3>
+						<p class="paragraph">Example of heading</p>
+					</div>
+
+					<!--  Text   headings  component showcase -->
+					<div class="component--showcase margin-bottom-sm">
+						<div class="input-flex-container">
+							<h1 class="heading-h1">This is an H1 heading</h1>
+							<h2 class="heading-h2">This is H2 heading</h2>
+							<h3 class="heading-h3">This is h3 heading</h3>
+							<h4 class="heading-h4">This is h4 heading</h4>
+							<h5 class="heading-h5">This is h5 heading</h5>
+							<h6 class="heading-h6">This is h6 heading</h6>
+						</div>
+					</div>
+
+					<!-- Text headings code snippet starts-->
+					<div class="component--code-snippet margin-bottom-sm">
+						<iframe
+							src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%2509%2509%2509%253Ch1%2520class%253D%2522heading-h1%2522%253EThis%2520is%2520an%2520H1%2520heading%253C%252Fh1%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Ch2%2520class%253D%2522heading-h2%2522%253EThis%2520is%2520H2%2520heading%253C%252Fh2%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Ch3%2520class%253D%2522heading-h3%2522%253EThis%2520is%2520h3%2520heading%253C%252Fh3%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Ch4%2520class%253D%2522heading-h4%2522%253EThis%2520is%2520h4%2520heading%253C%252Fh4%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Ch5%2520class%253D%2522heading-h5%2522%253EThis%2520is%2520h5%2520heading%253C%252Fh5%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Ch6%2520class%253D%2522heading-h6%2522%253EThis%2520is%2520h6%2520heading%253C%252Fh6%253E%250A%2509%2509%2509%2509%2509%2509%2509%250A"
+							style="
+								width: 100%;
+								height: 346px;
+								border: 0;
+								transform: scale(1);
+								overflow: hidden;
+							"
+							sandbox="allow-scripts allow-same-origin"
+						>
+						</iframe>
+					</div>
+
+					<!-- Text headings code snippet  ends-->
+
+					<!-- Text alignment showcase starts-->
+					<div class="component--showcase margin-bottom-sm">
+						<p class="align-text-left">Hail neoG</p>
+						<p class="align-text-center">Hail neoG</p>
+						<p class="align-text-right">Hail neoG</p>
+					</div>
+
+					<!-- Text alignment showcase starts-->
+
+					<!-- Text-alignment code snippet starts-->
+					<div class="component--code-snippet margin-bottom-sm">
+						<iframe
+							src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%2509%2509%2509%250A%2509%2509%2509%2509%2509%2509%253Cp%2520class%253D%2522align-text-left%2522%253EHail%2520neoG%253C%252Fp%253E%250A%2509%2509%2509%2509%2509%2509%253Cp%2520class%253D%2522align-text-center%2522%253EHail%2520neoG%253C%252Fp%253E%250A%2509%2509%2509%2509%2509%2509%253Cp%2520class%253D%2522align-text-right%2522%253EHail%2520neoG%253C%252Fp%253E%250A%2509%2509%2509%2509%2509%250A%2509%2509%2509%2509%2509%2509%2509%250A"
+							style="
+								width: 100%;
+								height: 326px;
+								border: 0;
+								transform: scale(1);
+								overflow: hidden;
+							"
+							sandbox="allow-scripts allow-same-origin"
+						>
+						</iframe>
+					</div>
+					<!-- Text-alignment code snippet ends-->
+
+					<!-- text transform showcase starts -->
+
+					<h3 class="teritiary-heading"> Example </h3>
+					<p class="paragraph"
+						>You can use <span class="bz-color">text-uppercase</span>,<span
+							class="bz-color"
+							>text-lowercase</span
+						>,<span class="bz-color">text-cap</span> to transform your texts.</p
+					>
+
+					<div class="component--showcase margin-bottom-sm">
+						<p class="text-uppercase">Hail neoG</p>
+						<p class="text-lowercase">Hail neoG</p>
+						<p class="text-cap">Hail neoG</p>
+					</div>
+					<!-- text transform showcase ends -->
+
+					<!-- Text-transform code snippet starts-->
+					<div class="component--code-snippet margin-bottom-sm">
+						<iframe
+							src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=707&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%2509%253Cp%2520class%253D%2522text-uppercase%2520%2522%253EHail%2520neoG%253C%252Fh4%253E%250A%2509%2509%2509%2509%2509%253Cp%2520class%253D%2522text-lowercase%2520%2522%253EHail%2520neoG%253C%252Fp%253E%250A%2509%2509%2509%2509%2509%253Cp%2520class%253D%2522text-cap%2520%2522%253EHail%2520neoG%253C%252Fp%253E"
+							style="
+								width: 100%;
+								height: 246px;
+								border: 0;
+								transform: scale(1);
+								overflow: hidden;
+							"
+							sandbox="allow-scripts allow-same-origin"
+						>
+						</iframe>
+					</div>
+					<!-- Text-transform code snippet ends-->
+				</div>
+
+				<!-- Text Utilities component ends -->
+
+				<hr />
+				<hr />
+
+				<!-- Nabvar component starts -->
+
+				<div class="component-flex">
+					<div class="component--text-box margin-bottom-sm" id="Navbar">
+						<h2 class="secondary-heading"> Navbar </h2>
+
+						<p class="paragraph">
+							Navigations are used for quick access to certain pages of website
+						</p>
+
+						<h3 class="teritiary-heading"> Example </h3>
+						<p class="paragraph"
+							>Here is a basic navigation that you can use for your webpage</p
+						>
+					</div>
+
+					<!--  Navigation component showcase starts -->
+					<div class="component--showcase margin-bottom-sm">
+						<div class="nav-container">
+							<div class="logo">
+								<a href="">LOGO</a>
+							</div>
+
+							<div class="navbar-links">
+								<a href="">section 1</a>
+								<a href="">section 2</a>
+								<a href="">section 3</a>
+							</div>
+							<input
+								type="search"
+								name=""
+								id=""
+								class="navbar-search"
+								placeholder="search for products"
+							/>
+
+							<div class="usericon-container">
+								<a class="user-profile-icon"><i class="fas fa-user"></i></a>
+								<a class="user-profile-cart"><i class="fas fa-cloud"></i></a>
+							</div>
+						</div>
+					</div>
+					<!--  Navigation component showcase ends -->
+
+					<!-- Navbar code snippet starts-->
+					<div class="component--code-snippet margin-bottom-sm">
+						<iframe
+							src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=707&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522nav-container%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522logo%2522%253E%253Ca%2520href%253D%2522%2522%253ELOGO%253C%252Fa%253E%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522navbar-links%2522%253E%253Ca%2520href%253D%2522%2522%253Esection%25201%253C%252Fa%253E%250A%2520%2520%253Ca%2520href%253D%2522%2522%253Esection%25202%253C%252Fa%253E%250A%2520%2520%2520%253Ca%2520href%253D%2522%2522%253Esection%25203%253C%252Fa%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cinput%2520type%253D%2522search%2522%2520class%253D%2522navbar-search%2522%2520placeholder%253D%2522searc%2520for%2520products%2522%252F%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522usericon-container%2522%253E%250A%2520%2520%2520%253Ca%2520class%253D%2522user-profile-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-user%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%253Ca%2520class%253D%2522user-profile-cart%2522%253E%253Ci%2520class%253D%2522fas%2520fa-cloud%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+							style="
+								width: 100%;
+								height: 507px;
+								border: 0;
+								transform: scale(1);
+								overflow: hidden;
+							"
+							sandbox="allow-scripts allow-same-origin"
+						>
+						</iframe>
+					</div>
+					<!-- Navbar Image code snippet  ends-->
+				</div>
+
+				<!-- Nabvar component ends -->
+
+				<hr />
+				<hr />
+
+				<!-- Modal component starts -->
+
+				<div class="component-flex">
+					<div class="component--text-box margin-bottom-sm" id="Modal">
+						<h2 class="secondary-heading"> Modal </h2>
+
+						<p class="paragraph">
+							A modal is a dialog box/popup window that appears on top of a
+							parent screen. It's called 'modal' because it creates a mode that
+							disables the parent screen but keeps it visible
+						</p>
+
+						<h3 class="teritiary-heading"> Example Of modal</h3>
+						<p class="paragraph">you can use class name for modal</p>
+					</div>
+
+					<!--  Modalcomponent showcase starts -->
+					<div class="component--showcase margin-bottom-sm">
+						<div class="modal-bg">
+							<div class="modal-container">
+								<h2 class="modal-title">Modal Title</h2>
+								<span><i class="modal-icon fas fa-times"></i></span>
+								<p class="modal-text"
+									>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Explicabo reiciendis sequi nemo cumque quasi dolorum nobis
+									consequuntur sint optio. Delectus.
+								</p>
+							</div>
+						</div>
+					</div>
+					<!--  Modal component showcase ends -->
+
+					<!-- Modal code snippet starts-->
+					<div class="component--code-snippet margin-bottom-sm">
+						<iframe
+							src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=707&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal-container%2522%253E%250A%2520%2520%253Ch2%2520class%253D%2522modal-title%2522%253EModal%2520Title%253C%252Fh2%253E%250A%2520%2520%253Cspan%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522modal-icon%2520fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fspan%253E%250A%2520%2520%253Cp%2520class%253D%2522modal-text%2522%253E%250A%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Explicabo%250A%2520%2520%2520%2520reiciendis%2520sequi%2520nemo%2520cumque%2520quasi%2520dolorum%2520nobis%2520consequuntur%2520sint%2520optio.%250A%2520%2520%2520%2520Delectus.%250A%2520%2520%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A"
+							style="
+								width: 100%;
+								height: 466px;
+								border: 0;
+								transform: scale(1);
+								overflow: hidden;
+							"
+							sandbox="allow-scripts allow-same-origin"
+						>
+						</iframe>
+					</div>
+					<!-- Modal Image code snippet  ends-->
+				</div>
+
+				<!-- Modal component ends -->
+
+				<hr />
+				<hr />
+
+				<!-- Ratings component starts -->
+
+				<div class="component-flex">
+					<div class="component--text-box margin-bottom-sm" id="Ratings">
+						<h2 class="secondary-heading"> Ratings </h2>
+
+						<p class="paragraph">
+							Ratings are used to show how users are ranking a product and how
+							much satisfied they are with that
+						</p>
+
+						<h3 class="teritiary-heading"> Example Of Ratings</h3>
+						<p class="paragraph">you can use class name for ratings</p>
+					</div>
+
+					<!--  Ratings showcase starts -->
+					<div class="component--showcase margin-bottom-sm">
+						<div class="rating-container">
+							<i class="fas fa-star rating-star"></i>
+
+							<i class="fas fa-star rating-star"></i>
+
+							<i class="fas fa-star rating-star"></i>
+
+							<i class="fas fa-star"></i>
+
+							<i class="fas fa-star"></i>
+						</div>
+					</div>
+					<!--  Ratings component showcase ends -->
+
+					<!-- Ratings code snippet starts-->
+					<div class="component--code-snippet margin-bottom-sm">
+						<iframe
+							src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=707&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Ci%2520class%253D%2522fas%2520fa-star%2520rating-star%2522%253E%253C%252Fi%253E%250A%250A%253Ci%2520class%253D%2522fas%2520fa-star%2520rating-star%2522%253C%252Fi%253E%250A%250A%253Ci%2520class%253D%2522fas%2520fa-star%2520rating-star%2522%253E%253C%252Fi%253E%250A%250A%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%250A%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A"
+							style="
+								width: 100%;
+								height: 386px;
+								border: 0;
+								transform: scale(1);
+								overflow: hidden;
+							"
+							sandbox="allow-scripts allow-same-origin"
+						>
+						</iframe>
+					</div>
+					<!-- Ratings code snippet  ends-->
+				</div>
+
+				<!-- Ratings component ends -->
+
+				<hr />
+				<hr />
+
+				<!-- Slider component starts -->
+				<div class="component-flex">
+					<div class="component--text-box margin-bottom-sm" id="Slider">
+						<h2 class="secondary-heading"> Sliders </h2>
+
+						<p class="paragraph">
+							Slider are used to show how users are ranking a product and how
+							much satisfied they are with that
+						</p>
+
+						<h3 class="teritiary-heading"> Example Of Slider</h3>
+					</div>
+
+					<!--  Slider component showcase starts -->
+					<div class="component--showcase margin-bottom-sm">
+						<div class="slider-container">
+							<input type="range" class="slider" />
+						</div>
+					</div>
+					<!--  Slider component showcase ends -->
+
+					<!-- Slider code snippet starts-->
+					<div class="component--code-snippet margin-bottom-sm">
+						<iframe
+							src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2509%2509%2520%2509%253Cinput%2520type%253D%2522range%2522%2520class%253D%2522slider%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2509%2509%2509%2509%250A%250A%2509%2509%2509%2509%2509%2509"
+							style="
+								width: 100%;
+								height: 266px;
+								border: 0;
+								transform: scale(1);
+								overflow: hidden;
+							"
+							sandbox="allow-scripts allow-same-origin"
+						>
+						</iframe>
+					</div>
+					<!-- Slider Image code snippet  ends-->
+				</div>
+				<!-- Slider component end -->
+
+				<hr />
+				<hr />
+
+				<!-- component ends -->
+			</div>
+		</div>
+		<!-- main container ends -->
+	</body>
+</html>
