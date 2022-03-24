@@ -33,4 +33,28 @@
 	--text-sc: #00ff00;
 	--text-erc: #ff0000;
 	--usage-button-hv: #d3d3d3;
+
+	/* Tint and shades Black */
+
+	--black-t1: #000000;
+	--black-t2: #1a1a1a;
+	--black-t3: #333333;
+	--black-t4: #4d4d4d;
+
+	--black-s1: #999999;
+	--black-s2: #b3b3b3;
+	--black-s3: #cccccc;
+	--black-s4: #e6e6e6;
+
+	/* Tint and shades Crimson */
+	--crimson-t1: #270714;
+	--crimson-t2: #420c22;
+	--crimson-t3: #4f0e28;
+	--crimson-t4: #691336;
+
+	--crimson-s1: #8f2f56;
+	--crimson-s2: #a85d7b;
+	--crimson-s3: #b5748e;
+	--crimson-s4: #cda3b4;
+	--crimson-s5: #e6d1d9;
 }
