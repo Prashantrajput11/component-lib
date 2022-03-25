@@ -1,0 +1,23 @@
+.grid--2-col{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0
+}
+
+
+.flex-col-sb{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.flex-row-sb{
+  display:flex;
+  justify-content: space-between;
+
+
+}
+hr{
+  width:100%;
+  color:red;
+}
