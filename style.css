@@ -13,6 +13,10 @@
 @import "./docs.css";
 @import "./landingpage.css";
 @import "./shared/shared.css";
+@import "./Designsystem/layout.css";
+@import "./Designsystem/shared2.css";
+@import "./Designsystem/spacing-design.css";
+@import "./Designsystem/typography.css";
 
 :root {
 	--primary-color: #831843;
